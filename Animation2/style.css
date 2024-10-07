@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes animate {
+    0% {
+        background-color: black;
+    }
+
+    25% {
+        background-color: aqua;
+    }
+
+    50% {
+        background-color: azure;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.jay {
+    display: flex;
+    flex-flow: wrap row;
+    flex-direction: row;
+
+}
+
+p {
+    width: 48%;
+    height: 100px;
+    background-color: black;
+    /* text-align: center; */
+    align-items: center;
+    text-transform: uppercase;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-name: para;
+    display: flex;
+    animation-iteration-count: infinite;
+    border: 2px solid black;
+    margin: 4px;
+
+    /* display: inline-block; */
+
+}
+
+@keyframes para {
+    0% {
+        background-color: black;
+    }
+
+    25% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    75% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
